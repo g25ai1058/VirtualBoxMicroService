@@ -1,0 +1,15 @@
+VM01: Windows XP
+IP Address: 192.168.29.28
+Role: Client
+
+VM02: Xubuntu
+IP Address: 192.168.29.34
+Role: Node.js Microservice Server
+Port: 3000
+Network Type: Internal Network (VirtualBox)
+
+## How to Run
+1. On Xubuntu, navigate to the folder (microservice).
+2. Run `npm install` to install Express.
+3. Run `node server.js` to start the service.
+4. On Windows XP, browse to `http://192.168.29.34:3000/api/message`.
